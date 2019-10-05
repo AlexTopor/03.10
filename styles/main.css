@@ -1,0 +1,244 @@
+body {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+div {
+    border: solid 1px;
+    border-color: red;
+    border-radius: 3px;
+}
+.father {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+    background: #18191D;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(layout-main.png);
+    background-size: 100% 100% no-repeat;
+    background-size: cover;
+    
+}
+header {
+    border: solid 1px;
+    border-color: red;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    background: linear-gradient(90deg, #1D2024 0%, #18191D 100%);
+}
+.main {
+    width: 100%;
+    height: 980px;
+    display: flex;
+    
+}
+nav {
+    width: 135px;
+    height: 980px;
+    border: solid 1px;
+    border-color: red;
+}
+nav div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #4a4d50;
+    background: #1d2024;
+    text-align: center;
+}
+main {
+    width: 1440px;
+    height: 980px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+}
+main > div {
+    background: linear-gradient(180deg, rgba(29, 32, 36, 0.6) 45.23%, rgba(29, 32, 36, 0) 100%);
+mix-blend-mode: normal;
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+border-radius: 3px;
+}
+.first-block {
+    height: 420px;
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+   
+}
+
+.create-game, .join {
+    height: 70px;
+    width: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #797A7C;
+}
+main span {
+    color: #ffffff;
+    width: 100%;
+    font-size: 14px;
+}
+.mode1 {
+    width: 140px;
+    height: 160px;
+    background: #1B1D21;
+    border-radius: 3px
+}
+.mode2 {
+    width: 220px;
+    height: 160px;
+    background: #1B1D21;
+    border-radius: 3px
+}
+.mode3 {
+    width: 495px;
+    height: 160px;
+    background: #1B1D21;
+    border-radius: 3px
+}
+.stavka {
+    width:100%;
+    height: 130px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.stavka div {
+    height: 50px;
+    width: 80px;
+    background: #1B1D21;
+}
+.second-block {
+    height: 420px;
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+}
+.third-block {
+    height: 420px;
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+}
+.fourth-block {
+    height: 420px;
+    width: 360px;
+    display: flex;
+    flex-direction: row;
+}
+aside {
+    width: 350px;
+    height: 980px;
+    border: solid 1px;
+    border-color: red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+aside div {
+    width: 315px;
+    height: 130px;
+    background: #24272B;
+    mix-blend-mode: normal;
+    border-radius: 3px;
+    
+}
+aside div:nth-child(2n-1) {
+    background-image: url(layout-1-aside.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+aside div:nth-child(2n) {
+    background-image: url(layout-2-aside.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+aside div:last-child {
+    height: 50px;
+    background: rgba(29, 32, 36, 0.6);
+mix-blend-mode: normal;
+backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 3px;
+}
+.polygon {
+    clip-path: polygon(75% 0, 100% 50%, 75% 100%, 25% 100%, 0 50%, 25% 0);
+    background-image: url(ava-1.png);
+}
+.logo {
+    margin-left: 50px;
+}
+.centered {
+    position: relative;
+    height:25px;
+    width:25px;
+    display: flex;
+    margin-right: 500px;
+}
+.base {
+    position: relative;
+}
+.arrow-dwn {
+    position: absolute;
+    padding: 11px 9px;
+ 
+}
+header input {
+width: 426px;
+height: 50px;
+background: #1D2024;
+border-radius: 3px;
+}
+.vert-line {
+width: 50px;
+height: 3px;
+rotate: (90deg);
+background:#2A2B31;
+transform: rotate(90deg);
+}
+.gamers-online {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+}
+header span:first-of-type {
+    color: #f9bf14;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.me {
+    height: 100px;
+    width: 330px;
+    background: #1D2024;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+nav div {
+    display: flex;
+    border: solid 1px;
+    border-color: red;
+    height: 100px;
+
+}
